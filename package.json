@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open --browser chrome",
+    "cy:open:firefox": "npx cypress open --browser firefox",
+    "cy:open:env": "npx cypress open --config-file cypress.env.json --browser edge",
+    "cy:open:headless": "npx cypress run --browser chrome"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "book"
+  ],
+  "author": "Mister",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
